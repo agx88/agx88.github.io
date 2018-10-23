@@ -12,16 +12,16 @@ body {
 hr {
   max-width: 65px;
   border-width: 3px;
-  border-color: #F05F44; 
+  border-color: rgb(0, 0, 0); 
 }
 
 .faded {
-  color: rgba(255, 255, 255, 0.8); 
+  color: rgba(255, 255, 255); 
 }
 
 header.startup {
   background-position: center;
-  background-image: url("header.jpg");
+  background-image: url("bg.jpg");
   background-size: cover;
   height: 100%;
 }
@@ -47,14 +47,16 @@ header.startup h1 {
 }
 
 .btn-primary {
-  background-color: #F05F44;
-  border-color: #F05F44; }
+  background-color: rgba(0, 0, 0, 0.74);
+  border-color: rgba(0, 0, 0, 0.74);
+ 
+}
 
 .btn-primary:hover {
-  background-color: #ee4b08;
-  border-color: #ee4b08;
+  background-color: #08dfee81;
+  border-color: #08dfeebe;
   border-width: 5px;
   cursor: pointer;
-  transition: .3s;
+  transition: .4s;
 }
   
